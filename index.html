@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page - Projeto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Landing Page</h1>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>Bem-vindo à minha Landing Page</h2>
+    <p>Projeto acadêmico desenvolvido com HTML, CSS e JavaScript.</p>
+    <a href="#contato" class="btn">Fale Conosco</a>
+  </section>
+
+  <section id="sobre" class="container">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      Esta landing page foi criada como parte de uma atividade avaliativa da faculdade, 
+      com foco no uso de boas práticas de HTML, CSS, JavaScript e versionamento no GitHub.
+    </p>
+  </section>
+
+  <section id="projetos" class="container">
+    <h2>Projetos</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="assets/img1.jpg" alt="Projeto 1" />
+        <div class="card-body">
+          <h3>Projeto 1</h3>
+          <p>Exemplo de card com animação</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/img2.jpg" alt="Projeto 2" />
+        <div class="card-body">
+          <h3>Projeto 2</h3>
+          <p>Exemplo de card com animação</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/img3.jpg" alt="Projeto 3" />
+        <div class="card-body">
+          <h3>Projeto 3</h3>
+          <p>Exemplo de card com animação</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="container">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Desenvolvimento Web</li>
+      <li>Design Responsivo</li>
+      <li>Interatividade com JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="container">
+    <h2>Entre em Contato</h2>
+    <form id="contactForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Landing Page | Desenvolvido por Cleisson</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
